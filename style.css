@@ -14,7 +14,7 @@ header {
 
 div#he {
     text-align: center;
-    padding-top: 490px;
+    padding-top: 390px;
     background-image: url(./_img/background-under-construction.jpg);
     background-size: cover;
     height: 440px;
@@ -27,12 +27,12 @@ div#he h1 {
 }
 
 div#he p {
-    color: #00CCEE;
+    color: white;
     text-shadow: black 1px 1px 1px;
 }
 
 div#he1 {
-    padding-left: 580px;
+    padding-left: 590px;
 }
 
 nav {
@@ -70,6 +70,11 @@ nav li {
     
 }
 
+#imagens p {
+    color: black;
+    text-shadow: black 1px 1px 1px;
+}
+
 .imagem {
     padding: 80px;
     
@@ -101,3 +106,9 @@ footer {
     width: 100%;
     background-image: url(_img/background-triangulos-1.jpg);
 }
+
+footer p {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
