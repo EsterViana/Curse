@@ -1,96 +1,80 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
     margin: 0px;
 }
 
-header div{
-    border: 1px solid black;
-    background: rgb(73, 0, 73);
-    height: 300px;
-    width: cover;
-
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #00CCEE;
+    position: fixed;
 }
 
-nav{
-    border: 1px solid gray;
-    background: deeppink;
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7px;
+    background-image: url(_img/background-triangulos-1.jpg);
+}
+
+nav a {
+    text-decoration: none;
     color: white;
-    height: 40px;
+    text-transform: uppercase;
+    padding: 04px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+#banner {
+    width: 1535px;
+    height: 650px;
+    margin-top: 70px;
+}
+
+#imagens {
     display: flex;
-}
-
-nav img{
-    justify-content: flex-start;
-    padding: 10px 0px;
-}
-
-nav ul{
-    margin-left: auto;
-    margin-right: auto;
     
 }
 
-section{
-    display: flex;
-    border: 1px solid black;
+.imagem {
+    padding: 80px;
     
 }
 
-#side{
-    border: 1px solid black;
-    background: rgb(1, 59, 27);
-    height: 500px;
-    width: 20%;
-    margin: 30px 10px;
-
-}
-
-
-#sides{
-    border: 1px solid black;
-    flex-wrap: wrap;
-    display: inline-flex;
-    margin: 30px 20px;
-    height: 500px;
-    width: 80%;
-    align-content: stretch;
-    justify-content: space-around;
-    
-    
-}
-
-.not{
-    border: 1px solid rgb(32, 14, 14);
+.imagem img {
     height: 200px;
-    width: 200px;
-    text-align: center;
-    font-size: 30pt;
-    margin: 10px 10px;
-    background: rgb(1, 59, 27);
 }
 
-h2{
-    text-align: center;
-}
-
-.parceiros{
-    border: 1px solid black;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.parceiros div{
-    border: 1px solid black;
-    background: dodgerblue;
-    height: 100px;
+.imagem p {
+    height: 200px;
     width: 300px;
-    margin: 15px 5px;
+    margin-left: 28px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-footer{
-    text-align: center;
-    border: 1px solid black;
-    background: deeppink;
-    color: white;
+section img{
+    padding: 40px;
+}
+
+section {
+    margin-top: 120px;
+    margin-left: 177px;
+    margin-bottom: 40px;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-image: url(_img/background-triangulos-1.jpg);
 }

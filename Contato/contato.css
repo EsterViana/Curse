@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #00CCEE;
+    /*position: fixed;*/
+}
+
+div#interface {
+    width: 970px;
+    margin: 0px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px; 
+    background-image: url(../_img/background-ester-02.svg);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7px;
+    background-image: url(../_img/background-triangulos-1.jpg);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 04px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+div {
+    margin-left: 330px;
+}
+
+
+#texto {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-top: 25px;
+    margin-bottom: 6px;
+    color: #00CCEE;
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+    width: 600px;
+    margin-left: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#caixa {
+    margin-top: 20px;
+    margin-right: 100px;
+   
+}
+
+input {
+    width: 400px;
+    border: none;
+    border-bottom:  black 1px solid;
+    margin-bottom: 30px;
+    /*width: 390px;*/
+    height: 30px;
+    font-size: 15pt;
+    border-radius: 25px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+section {
+    width: 400px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+     text-shadow: 1px 1px 1px black;
+}
+
+#msn {
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 290px;
+    border: none;
+    background: none;
+
+}
+button p {
+    color: black;
+    font-size: 18pt;
+    text-shadow: 1px 1px 1px black;
+    background: none;
+    margin-top: -20px;
+}
+
+
+footer {
+    height: 60px;
+    background-image: url(../_img/background-triangulos-1.jpg);
+    width: auto;
+}
