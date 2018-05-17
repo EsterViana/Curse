@@ -107,6 +107,12 @@ nav li {
     color: #4169e1;
 }
 
+.um2 a {
+    /*text-decoration: none;*/
+    color: black;
+    text-shadow: black 1px 1px 1px;
+}
+
 .um3 {
     height: 130px;
 }
@@ -120,11 +126,6 @@ nav li {
 
 .um5 {
     height: 190px;
-}
-
-footer p {
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
 }
 
 footer {
